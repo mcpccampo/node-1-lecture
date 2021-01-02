@@ -5,15 +5,18 @@
     },
     {
         "id": 2,
-        "name": "Charmander"
+        "name": "Charmander",
+        "type": "fire"
     },
     {
         "id": 3,
-        "name": "Charmeleon"
+        "name": "Charmeleon",
+        "type": "fire"
     },
     {
         "id": 4,
-        "name": "Charizard"
+        "name": "Charizard",
+        "type": "fire"
     },
     {
         "id": 5,

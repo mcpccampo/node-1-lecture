@@ -54,6 +54,7 @@ app.get('/notfound', (req, res) => {
 
 // using controller file
 app.get('/pokemonList', pokeMonCtrl.getAllPokemon);
+app.get('/pokemonsFilter', pokeMonCtrl.getAllPokemonFiltered); // http://localhost:4420/pokemonsFilter/?type=fire
 app.get('/pokemons/:id', pokeMonCtrl.getPokemonById);
 
 // start server
